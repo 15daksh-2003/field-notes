@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<p class="intro">Short notes on things I figured out. Mostly for future-me.</p>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+  </li>
+  {% endfor %}
+</ul>
