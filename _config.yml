@@ -2,8 +2,8 @@ title: Field Notes
 description: Short notes on things I figured out — infra, dev, and the occasional rabbit hole.
 author: Daksh
 
-baseurl: ""
-url: ""
+baseurl: "/field-notes"
+url: "https://15daksh-2003.github.io"
 
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
