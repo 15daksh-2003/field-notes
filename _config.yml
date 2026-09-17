@@ -2,9 +2,7 @@ title: Field Notes
 description: Short notes on things I figured out — infra, dev, and the occasional rabbit hole.
 author: Daksh
 
-# If this repo is named "field-notes", keep the line below.
-# If you use a root "<username>.github.io" repo instead, set baseurl to "".
-baseurl: "/field-notes"
+baseurl: ""
 url: ""
 
 markdown: kramdown
